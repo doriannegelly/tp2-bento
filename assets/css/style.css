@@ -108,3 +108,51 @@ h1 {
 
 /* Grille de mise en page
    ========================================================================== */
+body {
+    background-color: rgb(242, 241, 250);
+}
+   /* GRILLE */
+.descriptions {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 20px;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+@media (min-width: 600px) {
+    .descriptions {
+        grid-template: repeat(2, 1fr);
+    }
+}
+
+.description__box {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* CASES */
+.case1,
+.case5 {
+    background-color: rgb(118, 81, 220);
+    color: white;
+    text-align: center;
+}
+
+.case2,
+.case6 {
+    background-color: white;
+}
+
+.case3,
+.case8 {
+    background-color: rgb(255, 204, 105);
+}
+
+.case4 {
+    background-color: rgb(220, 209, 253);
+}
+
+.case7 {
+    background-color: rgb(250, 237, 225);
+}
