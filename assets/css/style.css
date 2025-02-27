@@ -30,6 +30,7 @@
     --color-primary: #7551db;
     --color-secondary: #fecc6a;
     --color-tertiary: rgb(221, 209, 252); 
+    --color-lightYellow: rgb(250, 237, 225);
 }
 
 
@@ -65,6 +66,7 @@ body {
     font-size: 1.4rem;
     /* facteur multiplicateur de la taille de la police 1.375x16 = 22 */
     line-height: 1.375;
+    background-color: rgb(242, 241, 250);
 } 
 
 @media (min-width: 600px) {
@@ -106,18 +108,13 @@ h1 {
     }
 }
 
-/* Grille de mise en page
-   ========================================================================== */
-
-/* TEXTE */
 h2 {
     line-height: 1;
 }
 
-body {   
-    background-color: rgb(242, 241, 250);
-}
-   /* GRILLE */
+
+/* Grille de mise en page
+   ========================================================================== */
 .descriptions {
     display: grid;
     grid-template: 100%;
@@ -174,49 +171,34 @@ body {
     }
 }
 
+/* STYLE DES COMPOSANT */
 .description__box {
-    padding: 0 20px 0 20px;
-    border-radius: 8px;
-    align-content: center;
-    overflow: hidden;
+    border-radius: 1rem;
+	padding: 1.5rem;
+	overflow: hidden;
 }
 
-/* CASES COULEURS */
-.case1,
-.case5 {
-    background-color: rgb(118, 81, 220);
-    color: white;
-    text-align: center;
-}
-
-.case2,
-.case6 {
-    background-color: white;
-}
-
-.case3,
-.case8 {
-    background-color: rgb(255, 204, 105);
-}
-
-.case4 {
-    background-color: rgb(220, 209, 253);
-}
-
-.case7 {
-    background-color: rgb(250, 237, 225);
-}
-
-/* CASES AUTRES */
 img {
     height: auto;
     margin: auto;
+    max-width: 100%;
 }
 
 @media (min-width: 600px) {
     .case4__image  {
         max-width: 180%;
     }
+}
+
+.case2__image {
+    width: 100%;
+	margin-bottom: 1rem;
+}
+
+.case3__image {
+    max-width: 120%;
+
+	width: 20rem;
 }
 
 .case5 {
@@ -234,4 +216,45 @@ img {
 .case5__image {
     max-width: 50%;
     height: auto;
+}
+
+.case8 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.case8__image {
+    margin: auto;
+    align-self: flex-end;
+}
+
+/* UTILITAIRES */
+.mauve {
+    color: var(--color-primary);
+}
+
+/* COULEURS DES CASES */
+.case1,
+.case5 {
+    background-color: var(--color-primary);
+    color: white;
+    text-align: center;
+}
+
+.case2,
+.case6 {
+    background-color: white;
+}
+
+.case3,
+.case8 {
+    background-color: var(--color-secondary);
+}
+
+.case4 {
+    background-color: var(--color-tertiary);
+}
+
+.case7 {
+    background-color: var(--color-lightYellow);
 }
