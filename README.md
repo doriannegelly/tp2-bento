@@ -1,69 +1,110 @@
-# Frontend Mentor - Grille Bento
+# Frontend Mentor - Solution Grille Bento
 
-![Aperçu du design pour le défi de codage Grille Bento](preview.jpg)
+Il s'agit d'une solution pour le [défi Grille Bento sur Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Les défis de Frontend Mentor vous aident à améliorer vos compétences en codage en construisant des projets réalistes.
 
-## Bienvenue ! 👋
+## Table des matières
 
-Merci d'accepté ce défi de codage front-end.
+- [Frontend Mentor - Solution Grille Bento](#frontend-mentor---solution-grille-bento)
+  - [Table des matières](#table-des-matières)
+  - [Aperçu](#aperçu)
+    - [Le défi](#le-défi)
+    - [Capture d'écran](#capture-décran)
+    - [Liens](#liens)
+  - [Mon processus](#mon-processus)
+    - [Technologies utilisées](#technologies-utilisées)
+    - [Ce que j'ai appris](#ce-que-jai-appris)
+    - [Développement continu](#développement-continu)
+    - [Ressources utiles](#ressources-utiles)
+  - [Auteur](#auteur)
+  - [Remerciements](#remerciements)
 
-Les défis de [Frontend Mentor](https://www.frontendmentor.io) vous aident à améliorer vos compétences en codage en construisant des projets réalistes.
+**Remarque : Supprimez cette note et mettez à jour la table des matières en fonction des sections que vous conservez.**
 
-**Pour relever ce défi, vous devez avoir une bonne compréhension du HTML et du CSS.**
+## Aperçu
 
-## Le défi
+### Le défi
 
-Votre défi est de construire cette grille bento et de la rendre aussi proche que possible du design.
-
-Vous pouvez utiliser tous les outils que vous souhaitez pour vous aider à réaliser le défi. Si vous avez quelque chose que vous aimeriez pratiquer, n'hésitez pas à l'essayer.
-
-Vos utilisateurs doivent être capables de : 
+Les utilisateurs doivent être capables de :
 
 - Voir la mise en page optimale de l'interface en fonction de la taille de l'écran de leur appareil.
 
-Vous souhaitez du soutien pour le défi ? [Rejoignez notre communauté](https://www.frontendmentor.io/community) et posez vos questions dans le canal **#help**.
+### Capture d'écran
 
-### Comportement attendu
+![](./screenshot.jpg)
 
-Les deux composants dans la colonne de gauche sur le bureau sont placés en bas sur mobile. C'est une excellente occasion de pratiquer vos compétences en placement avec CSS Grid.
+Ajoutez une capture d'écran de votre solution. La manière la plus simple de le faire est d'utiliser Firefox pour afficher votre projet, de faire un clic droit sur la page et de sélectionner "Prendre une capture d'écran". Vous pouvez choisir soit une capture d'écran pleine hauteur, soit une version recadrée en fonction de la longueur de la page. Si la page est très longue, il peut être préférable de la recadrer.
 
-## Où trouver tout le nécessaire
+Alternativement, vous pouvez utiliser un outil comme [FireShot](https://getfireshot.com/) pour prendre la capture d'écran. FireShot propose une option gratuite, vous n'avez donc pas besoin de l'acheter.
 
-Votre tâche consiste à construire le projet selon les designs dans le dossier `/design`. Vous y trouverez à la fois une version mobile et une version bureau du design.
+Ensuite, recadrez/optimisez/modifiez votre image comme bon vous semble, ajoutez-la à votre projet et mettez à jour le chemin du fichier dans l'image ci-dessus.
 
-Tous les assets nécessaires pour ce projet se trouvent dans le dossier `/assets`. Les images sont déjà exportées pour la taille d'écran correcte et optimisées.
+**Remarque : Supprimez cette note et les paragraphes ci-dessus lorsque vous ajoutez votre capture d'écran. Si vous préférez ne pas ajouter de capture d'écran, n'hésitez pas à supprimer cette section entière.**
 
-Nous incluons également des fichiers de polices variables et statiques pour les polices nécessaires à ce projet. Vous pouvez choisir de lier vers Google Fonts ou d'utiliser les fichiers de polices locaux pour héberger les polices vous-même.  
+### Liens
 
-Il y a aussi un fichier `style-guide.md` contenant les informations nécessaires, comme la palette de couleurs et les polices.
+- URL de la solution : [Ajoutez l'URL de la solution ici](https://your-solution-url.com)
+- URL du site en direct : [Ajoutez l'URL du site en direct ici](https://your-live-site-url.com)
 
-## Construire votre projet
+## Mon processus
 
-N'hésitez pas à utiliser tout flux de travail avec lequel vous vous sentez à l'aise. Voici un processus suggéré, mais ne vous sentez pas obligé de suivre ces étapes :
+### Technologies utilisées
 
-1. Initialisez votre projet en tant que dépôt public sur [GitHub](https://github.com/). Créer un dépôt facilitera le partage de votre code avec la communauté si vous avez besoin d'aide. Si vous ne savez pas comment faire cela, [lisez cette ressource Try Git](https://try.github.io/).
-2. Configurez votre dépôt pour publier votre code sur une adresse web. Cela sera également utile si vous avez besoin d'aide pendant le défi, car vous pourrez partager l'URL de votre projet avec l'URL de votre dépôt. Il existe plusieurs façons de faire cela, et nous vous donnons quelques recommandations ci-dessous.
-3. Examinez les designs pour commencer à planifier la manière dont vous allez aborder le projet. Cette étape est cruciale pour réfléchir aux classes CSS à créer pour des styles réutilisables.
-4. Avant d'ajouter des styles, structurez votre contenu avec HTML. Écrire d'abord votre HTML peut vous aider à vous concentrer sur la création d'un contenu bien structuré.
-5. Rédigez les styles de base pour votre projet, y compris les styles généraux du contenu, comme `font-family` et `font-size`.
-6. Commencez à ajouter des styles du haut de la page et travaillez vers le bas. Passez à la section suivante uniquement lorsque vous êtes satisfait de la section que vous venez de terminer.
+- Marquage HTML5 sémantique
+- Propriétés CSS personnalisées
+- Flexbox
+- CSS Grid
+- Workflow mobile-first 
 
-## Déployer votre projet
- 
-- [GitHub Pages](https://pages.github.com/) 
- 
+**Remarque : Ce sont juste des exemples. Supprimez cette note et remplacez la liste ci-dessus par vos propres choix.**
 
-## Créez un `README.md` personnalisé
+### Ce que j'ai appris
 
-Nous vous recommandons vivement de remplacer ce `README.md` par un personnalisé. Nous avons fourni un modèle dans le fichier [`README-template.md`](./README-template.md) dans ce code de démarrage.
+Utilisez cette section pour résumer certains de vos principaux apprentissages lors de la réalisation de ce projet. Les écrire et fournir des exemples de code des zones que vous souhaitez mettre en avant est un excellent moyen de renforcer vos propres connaissances.
 
-Le modèle fournit un guide sur ce que vous devez ajouter. Un `README` personnalisé vous aidera à expliquer votre projet et à réfléchir à vos apprentissages. N'hésitez pas à modifier notre modèle autant que vous le souhaitez.
+Voici un exemple de la manière dont vous pouvez ajouter des extraits de code :
 
-Une fois que vous avez ajouté vos informations dans le modèle, supprimez ce fichier et renommez le fichier `README-template.md` en `README.md`. Cela le rendra visible comme le fichier README de votre dépôt.
+```html
+<h1>Un code HTML dont je suis fier</h1>
+```
 
-## Soumettre votre solution (FACULTATIF)
+```css
+.fier-de-ce-css {
+  color: papayawhip;
+}
+```
 
-Soumettez votre solution sur la plateforme pour que la communauté puisse la voir. Suivez notre ["Guide complet pour soumettre des solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) pour des conseils sur la manière de procéder. 
+```js
+const fierDeCetteFonction = () => {
+  console.log('🎉')
+}
+```
 
-Ce défi est totalement gratuit. N'hésitez pas à le partager avec toute personne qui pourrait en bénéficier pour s'exercer.
+Si vous voulez plus d'aide pour rédiger du markdown, nous vous recommandons de consulter [Le Guide du Markdown](https://www.markdownguide.org/) pour en savoir plus.
 
-**Amusez-vous bien en construisant !** 🚀
+**Remarque : Supprimez cette note et le contenu de cette section et remplacez-le par vos propres apprentissages.**
+
+### Développement continu
+
+Utilisez cette section pour préciser les domaines sur lesquels vous souhaitez continuer à vous concentrer lors de projets futurs. Il peut s'agir de concepts que vous ne maîtrisez pas encore totalement ou de techniques que vous avez trouvées utiles et que vous souhaitez affiner et perfectionner.
+
+**Remarque : Supprimez cette note et le contenu de cette section et remplacez-le par vos propres projets de développement continu.**
+
+### Ressources utiles
+
+- [Exemple de ressource 1](https://www.example.com) - Cela m'a aidé pour XYZ. J'ai vraiment aimé ce modèle et je vais l'utiliser à l'avenir.
+- [Exemple de ressource 2](https://www.example.com) - C'est un excellent article qui m'a aidé à comprendre XYZ. Je le recommanderais à toute personne qui apprend encore ce concept.
+
+**Remarque : Supprimez cette note et remplacez la liste ci-dessus par des ressources qui vous ont aidé pendant le défi. Elles pourraient être utiles pour toute personne qui consulte votre solution ou pour vous-même lorsque vous reviendrez sur ce projet dans le futur.**
+
+## Auteur
+
+- Site Web - [Ajoutez votre nom ici](https://www.your-site.com)
+- Frontend Mentor - [@votrepseudo](https://www.frontendmentor.io/profile/votrepseudo) 
+
+**Remarque : Supprimez cette note et ajoutez/supprimez/modifiez les lignes ci-dessus en fonction des liens que vous souhaitez partager.**
+
+## Remerciements
+
+C'est ici que vous pouvez rendre hommage à toute personne qui vous a aidé sur ce projet. Peut-être avez-vous travaillé en équipe ou trouvé de l'inspiration dans la solution de quelqu'un d'autre. C'est l'endroit parfait pour leur rendre hommage.
+
+**Remarque : Supprimez cette note et modifiez le contenu de cette section si nécessaire. Si vous avez réalisé ce défi seul, n'hésitez pas à supprimer cette section entièrement.**
