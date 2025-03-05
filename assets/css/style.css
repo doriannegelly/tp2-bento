@@ -110,6 +110,8 @@ h1 {
 
 h2 {
     line-height: 1;
+    margin: auto;
+    font-size: 3.4rem;
 }
 
 
@@ -121,13 +123,15 @@ h2 {
     margin: 20px;
     list-style: none;
     padding: 0;
-    gap: 20px;
+    gap: 1rem;
+    max-width: 1100px;
 }
 
 @media (min-width: 600px) {
     .descriptions {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
         grid-template-rows: repeat(6, 1fr);
+        gap: 2rem;
     }
 
     .case1 {
@@ -184,21 +188,48 @@ img {
     max-width: 100%;
 }
 
+.case2 {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (min-width: 600px) {
-    .case4__image  {
-        max-width: 180%;
+    .case2__image {
+        max-width: 140%;
+    }
+
+    .case2 {
+        justify-content: space-between;
     }
 }
 
-.case2__image {
-    width: 100%;
-	margin-bottom: 1rem;
+.case3__image {
+    position: absolute;
+    bottom: -70px; /* Ajustez cette valeur pour contrôler le dépassement */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90%;
+}
+.case3 {
+    position: relative;
+}
+@media (min-width: 600px) {
+    .case3 {
+        justify-content: space-between;
+    }
 }
 
-.case3__image {
-    max-width: 120%;
 
-	width: 20rem;
+.case4 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+@media (min-width: 600px) {
+    .case4__image  {
+        max-width: 160%;
+    }
 }
 
 .case5 {
@@ -212,16 +243,44 @@ img {
         flex-direction: row;
     }
 }
-
 .case5__image {
     max-width: 50%;
     height: auto;
+}
+
+.case6 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.case6__image {
+    margin-bottom:1rem;
+}
+.case6 p,
+.case6 h1 {
+    margin: 0;
+}
+
+.case7 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 1.5rem;
+}
+
+.case7 h2 {
+    margin: auto auto 0 auto;
+}
+
+.case7__image {
+    margin: 0 auto auto auto;
 }
 
 .case8 {
     display: flex;
     flex-direction: column;
     text-align: left;
+    gap: 1rem;
 }
 .case8__image {
     margin: auto;
