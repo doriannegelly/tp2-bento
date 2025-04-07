@@ -78,7 +78,7 @@ Dans le futur, je souhaite apprendre encore mieux à organiser mon css et à mie
 
 ### Ressources utiles
 
-- [W3C](https://validator.w3.org/#validate_by_upload+with_options) - Cela m'a aidé poi=ur améliorer mon code.
+- [W3C](https://validator.w3.org/#validate_by_upload+with_options) - Cela m'a aidé pour améliorer mon code.
 
 ## Auteur
 
